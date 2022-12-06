@@ -1,9 +1,9 @@
 class Pdh < Formula
   desc "send things from one computer to another"
   homepage "https://github.com/duyunzhi/pdh"
-  url "https://github.com/duyunzhi/pdh/releases/download/v0.1.1/pdh-macos.tar.gz"
-  sha256 "d4e01481e49e45b3c38162ba29b0235d4f38de2c8dc40151bd107b131944500d"
-  version "0.1.1"
+  url "https://github.com/duyunzhi/pdh/releases/download/v0.1.2/pdh-macos.tar.gz"
+  sha256 "c1c0ff13805cec00fb7b1ece26c6ef69fd2543d009a3738d60fbb4a2f038901c"
+  version "0.1.2"
   def install
     bin.install "pdh"
   end
