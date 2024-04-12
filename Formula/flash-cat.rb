@@ -14,9 +14,9 @@ class FlashCat < Formula
   
     def install
       if Hardware::CPU.intel?
-        bin.install "flash-cat-macos-amd64/flash-cat"
+        bin.install "flash-cat"
       elsif Hardware::CPU.arm?
-        bin.install "flash-cat-macos-arm64/flash-cat"
+        bin.install "flash-cat"
       end
     end
   
