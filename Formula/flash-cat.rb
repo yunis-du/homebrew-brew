@@ -10,7 +10,7 @@ class FlashCat < Formula
       sha256 "ac1e8427d6cf84f820436e2ed263e0b3b73ad22bf62f5f74a6347f2f671706dc"
     end
   
-    version "1.1.0"
+    version "1.1.1"
   
     def install
       if Hardware::CPU.intel?
