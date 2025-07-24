@@ -1,7 +1,7 @@
 class FlashCat < Formula
     desc "Send things from one computer to another"
     homepage "https://github.com/yunis-du/flash-cat"
-    version "2.1.1"
+    version "2.1.2"
   
     if Hardware::CPU.intel?
       url "https://github.com/yunis-du/flash-cat/releases/download/v#{version}/flash-cat-cli-macos-#{version}-x86_64.tar.gz"
