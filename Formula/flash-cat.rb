@@ -1,14 +1,14 @@
 class FlashCat < Formula
     desc "Send things from one computer to another"
     homepage "https://github.com/yunis-du/flash-cat"
-    version "2.1.5"
+    version "2.1.6"
   
     if Hardware::CPU.intel?
       url "https://github.com/yunis-du/flash-cat/releases/download/v#{version}/flash-cat-cli-macos-#{version}-x86_64.tar.gz"
-      sha256 "3fe54b23d9c35652adee24c03d20784875232ca09e479146f463986d8806ba10"
+      sha256 "43fb412d212759a8e3633e144ba59259e2441cc676e6addaec45c9d817f8d4fb"
     elsif Hardware::CPU.arm?
       url "https://github.com/yunis-du/flash-cat/releases/download/v#{version}/flash-cat-cli-macos-#{version}-aarch64.tar.gz"
-      sha256 "ef375f720fd21043561e8199e4027a5b745f991af55b1e445aeb19f0377b0640"
+      sha256 "b006092b6b893a3ca875b6ec341d394d79bd563927c7b0d8bb8b3d98d18ba462"
     end
   
   
