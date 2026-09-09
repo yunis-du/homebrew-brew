@@ -5,10 +5,10 @@ class FlashCat < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/yunis-du/flash-cat/releases/download/v#{version}/flash-cat-cli-macos-#{version}-x86_64.tar.gz"
-    sha256 "d0c0220e37cdb6206f40d0f2b6e45ac94c5c803d2e7e88b93f7bdb4cf432062f"
+    sha256 "4b3e8119a6173d0334c6e9e4da4deff927b6865eb0f8e5bc61688821401b2d8b"
   elsif Hardware::CPU.arm?
     url "https://github.com/yunis-du/flash-cat/releases/download/v#{version}/flash-cat-cli-macos-#{version}-aarch64.tar.gz"
-    sha256 "29763d51dae53b99ee77a32d76d6f2f9e9c42733902f6fe090fccb8a8a085fb3"
+    sha256 "78bc6e9557166758f1c5246ed2d074380a5818e023a8cab8508288507472e80c"
   end
 
   def install
